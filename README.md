@@ -1,4 +1,4 @@
-<!-- DO NOT REMOVE - contributor_list:data:start:["MuhammadSaadSiddique", "YousraMashkoor"]:end -->
+<!-- DO NOT REMOVE - contributor_list:data:start:["MuhammadSaadSiddique", "Jaweria-B", "YousraMashkoor"]:end -->
 ## Setup your Environment
 
 navigate to backend folder and run the following commands
@@ -42,7 +42,9 @@ npm start
 ### 👥 Contributors
 
 
-- **[@MuhammadSaadSiddique](https://github.com/MuhammadSaadSiddique)** (3 contributions)
+- **[@MuhammadSaadSiddique](https://github.com/MuhammadSaadSiddique)** (11 contributions)
+
+- **[@Jaweria-B](https://github.com/Jaweria-B)** (5 contributions)
 
 - **[@YousraMashkoor](https://github.com/YousraMashkoor)** (1 contribution)
 
