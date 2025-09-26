@@ -1,4 +1,4 @@
-<!-- DO NOT REMOVE - contributor_list:data:start:["MuhammadSaadSiddique", "Jaweria-B", "YousraMashkoor", "google-labs-jules[bot]"]:end -->
+<!-- DO NOT REMOVE - contributor_list:data:start:["MuhammadSaadSiddique", "Jaweria-B", "google-labs-jules[bot]", "YousraMashkoor"]:end -->
 
 # QScience
 
@@ -90,13 +90,13 @@ Please try to follow the existing coding style.
 ### 👥 Contributors
 
 
-- **[@MuhammadSaadSiddique](https://github.com/MuhammadSaadSiddique)** (14 contributions)
+- **[@MuhammadSaadSiddique](https://github.com/MuhammadSaadSiddique)** (15 contributions)
 
 - **[@Jaweria-B](https://github.com/Jaweria-B)** (5 contributions)
 
-- **[@YousraMashkoor](https://github.com/YousraMashkoor)** (1 contribution)
+- **[@google-labs-jules[bot]](https://github.com/apps/google-labs-jules)** (2 contributions)
 
-- **[@google-labs-jules[bot]](https://github.com/apps/google-labs-jules)** (1 contribution)
+- **[@YousraMashkoor](https://github.com/YousraMashkoor)** (1 contribution)
 
 <!-- DO NOT REMOVE - contributor_list:end -->
 <!-- prettier-ignore-end -->
