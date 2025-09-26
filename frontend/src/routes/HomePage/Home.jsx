@@ -1,6 +1,9 @@
 import { Container, Typography } from '@mui/material';
 import styled from 'styled-components';
 
+/**
+ * A styled container for the page.
+ */
 const PageContainer = styled(Container)`
     background-color: #060359;
     color: white;
@@ -9,6 +12,9 @@ const PageContainer = styled(Container)`
     padding: 100px !important;
     text-allign: center;
 `
+/**
+ * A styled container for the text.
+ */
 const TextContainer = styled(Container)`
     margin: 20px !important;
     & > nth-child(2) {
@@ -16,15 +22,24 @@ const TextContainer = styled(Container)`
     }
 `
 
+/**
+ * A styled image.
+ */
 const Image = styled('img') ({
     marginLeft: 150,
     width: 400
 })
 
+/**
+ * A styled heading.
+ */
 const Heading = styled(Typography)`
     font-weight: bold !important;
 `
 
+/**
+ * A styled text block.
+ */
 const Text = styled(Typography)`
     & > *{
         font-weight: bold !important;
@@ -32,6 +47,11 @@ const Text = styled(Typography)`
         margin-left: 15px !important;
     }
 `
+/**
+ * The home page component.
+ *
+ * @returns {JSX.Element} The rendered home page.
+ */
 const Home = () => {
     return(
         <PageContainer maxWidth={900} >
