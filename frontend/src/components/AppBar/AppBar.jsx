@@ -11,22 +11,41 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import styled from 'styled-components';
 
+/**
+ * A styled keyboard arrow down icon.
+ */
 const DownArrow = styled(KeyboardArrowDownIcon)`
   margin-left: 0 !important;
 `
+/**
+ * A styled arrow outward icon.
+ */
 const ArrowIcon = styled(ArrowOutwardIcon)`
   margin-left: 0 !important;
   margin-right: 20px;
   padding-left: 0 ;
 `
+/**
+ * The application's app bar.
+ *
+ * @returns {JSX.Element} The rendered app bar.
+ */
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = anchorEl;
 
+  /**
+   * Handles the click event on the dropdown menu.
+   *
+   * @param {React.MouseEvent<HTMLElement>} event The click event.
+   */
   const handleClick = (event) => {
       setAnchorEl(event.currentTarget);
   };
 
+  /**
+   * Handles the close event on the dropdown menu.
+   */
   const handleClose = () => {
       setAnchorEl(null);
   };
