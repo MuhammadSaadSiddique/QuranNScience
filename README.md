@@ -22,6 +22,7 @@ The repository is a monorepo containing both the frontend and backend code.
 │   │   ├── models/  # SQLAlchemy database models
 │   │   └── views/   # Flask-RESTful API resources
 │   └── migrations/  # Database migration scripts
+├── fastapi_backend/ # FastAPI backend application
 ├── frontend/        # React frontend application
 │   └── src/
 │       ├── components/ # Reusable React components
@@ -31,7 +32,7 @@ The repository is a monorepo containing both the frontend and backend code.
 
 ## Setup your Environment
 
-### Backend
+### Flask Backend
 
 1.  Navigate to the `backend` folder.
 2.  Create a virtual environment: `python3 -m venv venv`
@@ -50,10 +51,18 @@ The repository is a monorepo containing both the frontend and backend code.
     export DB_NAME=quranicsci-db
     ```
 
-### Run the server
+### Run the Flask server
 
 1.  Navigate to the `backend` folder.
 2.  Run the server: `python manage.py runserver`
+
+### FastAPI Backend
+
+1.  Navigate to the `fastapi_backend` folder.
+2.  Create a virtual environment: `python3 -m venv venv`
+3.  Activate the virtual environment: `source venv/bin/activate`
+4.  Install the required packages: `pip install -r requirements.txt`
+5.  Run the server: `uvicorn main:app --reload`
 
 ### Frontend
 
